@@ -34,3 +34,23 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 폴더 관리
+
+public
+
+- fonts / 폰트 관리
+- images / 이미지 관리
+- svgs / svg 관리
+
+src
+
+- app / 페이지 라우팅 관리
+- components / 작은 단위의 재사용 가능한 컴포넌트
+- constants / 공통적으로 사용되는 상수 값
+- containers / 좀 더 큰 단위의 컴포넌트
+- services / api 관리
+- states / state 관리
+- styles / css 관리
+- types / 모델
+- utils / 유틸성 함수

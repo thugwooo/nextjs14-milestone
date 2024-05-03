@@ -45,12 +45,12 @@ public
 
 src
 
-- app / 페이지 라우팅 관리
+- app / 페이지 라우팅 관리, page.tsx, loading.tsx, not-found.tsx, error.tsx
 - components / 작은 단위의 재사용 가능한 컴포넌트
 - constants / 공통적으로 사용되는 상수 값
 - containers / 좀 더 큰 단위의 컴포넌트
 - services / api 관리
-- states / state 관리
+- stores / zustand 관리
 - styles / css 관리
 - types / 모델
 - utils / 유틸성 함수

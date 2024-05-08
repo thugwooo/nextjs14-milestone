@@ -7,6 +7,7 @@ interface PopupState {
 	actions: {
 		push: (item: StackType) => void;
 		pop: () => void;
+		popAsync: () => Promise<void>;
 		splice: (target: StackType) => void;
 	};
 }
@@ -16,6 +17,11 @@ const usePopupStore = create<PopupState>((set, get) => ({
 	actions: {
 		push: (item: StackType) => {},
 		pop: () => {},
+		popAsync: async () => {
+			const response = await fetch(
+				"https://jsonplaceholder.typicode.com/todos/1"
+			);
+		},
 		splice: (target: StackType) => {},
 	},
 }));

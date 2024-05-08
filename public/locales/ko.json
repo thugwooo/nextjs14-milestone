@@ -1,0 +1,16 @@
+{
+	"IndexPage": {
+		"title": "next-intl example",
+		"description": "반가워."
+	},
+	"NotFoundPage": {
+		"title": "Page Not Found",
+		"description": "문제"
+	},
+	"Navigation": {
+		"home": "홈"
+	},
+	"Footer": {
+		"copyright": "© 2024 Your App. All rights reserved."
+	}
+}
